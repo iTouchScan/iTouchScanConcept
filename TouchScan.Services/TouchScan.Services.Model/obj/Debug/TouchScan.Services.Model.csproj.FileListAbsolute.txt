@@ -1,0 +1,5 @@
+K:\Working Folder\iTouchScanConcept\TouchScan.Services\TouchScan.Services.Model\bin\Debug\TouchScan.Services.Model.Model.dll
+K:\Working Folder\iTouchScanConcept\TouchScan.Services\TouchScan.Services.Model\bin\Debug\TouchScan.Services.Model.Model.pdb
+K:\Working Folder\iTouchScanConcept\TouchScan.Services\TouchScan.Services.Model\obj\Debug\ResolveAssemblyReference.cache
+K:\Working Folder\iTouchScanConcept\TouchScan.Services\TouchScan.Services.Model\obj\Debug\TouchScan.Services.Model.Model.dll
+K:\Working Folder\iTouchScanConcept\TouchScan.Services\TouchScan.Services.Model\obj\Debug\TouchScan.Services.Model.Model.pdb

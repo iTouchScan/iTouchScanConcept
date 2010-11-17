@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dataContractModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="9b3e04ab-325a-4e2f-812d-28239341233a" implementationTechnology="" namespace="http://TouchScan.Services.Model/2010/Product" xmlns="http://schemas.microsoft.com/dsltools/DataContractDsl">
+  <contracts>
+    <dataContract Id="734f5008-1f8b-41a0-a3e1-05c4215511fa" objectExtenderContainer="&lt;?xml version=&quot;1.0&quot;?&gt;&#xD;&#xA;&lt;ObjectExtenderContainer xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; /&gt;" name="Product" namespace="http://TouchScan.Services.Model/2010/Product">
+      <contracts>
+        <dataContractBaseCanBeContainedOnContracts Id="b1e18c69-dc62-4eb0-b8df-b2142dcd7ca8">
+          <dataContractMoniker Id="f7c00d00-f7b5-4253-ab30-1fef61b443d6" />
+        </dataContractBaseCanBeContainedOnContracts>
+      </contracts>
+      <dataMembers>
+        <primitiveDataType Id="f2096c88-4205-4e57-be52-125b2d94076a" objectExtenderContainer="&lt;?xml version=&quot;1.0&quot;?&gt;&#xD;&#xA;&lt;ObjectExtenderContainer xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; /&gt;" name="Id" collectionType="" isNullable="false" type="System.Int32" />
+        <primitiveDataType Id="916b297c-100c-4940-aebc-4523ce03b1e6" objectExtenderContainer="&lt;?xml version=&quot;1.0&quot;?&gt;&#xD;&#xA;&lt;ObjectExtenderContainer xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; /&gt;" name="Name" collectionType="" isNullable="false" />
+        <referenceDataType objectExtenderContainer="" name="Variants" collectionType="" type="" />
+      </dataMembers>
+    </dataContract>
+    <dataContract Id="f7c00d00-f7b5-4253-ab30-1fef61b443d6" objectExtenderContainer="" name="ProductVariant" namespace="http://TouchScan.Services.Model/2010/Product">
+      <dataMembers>
+        <modelElementReference Id="cbc40706-e7d1-4978-959b-4bce234106ee" objectExtenderContainer="" name="Product" collectionType="" modelElementGuid="b1e18c69-dc62-4eb0-b8df-b2142dcd7ca8" type="Product" />
+      </dataMembers>
+    </dataContract>
+  </contracts>
+</dataContractModel>
